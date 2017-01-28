@@ -1,0 +1,198 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86CFBD24-A1D2-474B-A65E-0E1CC7294D15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VirtualDrive</RootNamespace>
+    <AssemblyName>VirtualDrive</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ChartPen.cs" />
+    <Compile Include="Controls\CommandEventArgs.cs" />
+    <Compile Include="Controls\CommandLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\CommandLine.Designer.cs">
+      <DependentUpon>CommandLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DiskPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\DiskPerformance.Designer.cs">
+      <DependentUpon>DiskPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DiskProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\DiskProperties.Designer.cs">
+      <DependentUpon>DiskProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EntryProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\EntryProperties.Designer.cs">
+      <DependentUpon>EntryProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PerformanceChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PerformanceChart.Designer.cs">
+      <DependentUpon>PerformanceChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PerformanceChartStyle.cs" />
+    <Compile Include="Controls\ProgressChangeEventArgs.cs" />
+    <Compile Include="Controls\SectorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\SectorView.Designer.cs">
+      <DependentUpon>SectorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SelectedFolderChangedEventArgs.cs" />
+    <Compile Include="Controls\VirtualListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\VirtualListViewSorter.cs" />
+    <Compile Include="Controls\VirtualTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\VirtualTreeViewSorter.cs" />
+    <Compile Include="FileSystem\FAT32\BootSector.cs" />
+    <Compile Include="FileSystem\FAT32\Disk.Internals.cs" />
+    <Compile Include="FileSystem\FAT32\DirectoryEntry.cs" />
+    <Compile Include="FileSystem\FAT32\Disk.cs" />
+    <Compile Include="FileSystem\FAT32\FAT.cs" />
+    <Compile Include="FileSystem\FAT32\FatFileSystemInfo.cs" />
+    <Compile Include="FileSystem\FAT32\Sector.cs" />
+    <Compile Include="FileSystem\FAT32\VirtualFile.cs" />
+    <Compile Include="Interfaces\IControl.cs" />
+    <Compile Include="Interfaces\IData.cs" />
+    <Compile Include="Interfaces\ISystem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\ShellDataObject.cs" />
+    <Compile Include="Shell\VirtualItem.cs" />
+    <Compile Include="VirtualExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VirtualExplorer.Designer.cs">
+      <DependentUpon>VirtualExplorer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\CommandLine.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommandLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DiskPerformance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DiskPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DiskProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DiskProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EntryProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EntryProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PerformanceChart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PerformanceChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SectorView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SectorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualExplorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VirtualExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bt-left-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bt-right-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bt-up-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\view-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\folder-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\refresh-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileExplorer\FileExplorer.csproj">
+      <Project>{7231C45A-5167-4AF3-805D-10AE21099286}</Project>
+      <Name>FileExplorer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\InfoBox-256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\paste-256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\copy-256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cut-256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Images\delete-256x256.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="8.25" />
+  <Class Name="FileExplorer.Controls.ExplorerListSorter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ExplorerListSorter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileExplorer.Controls.ExplorerListView" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ExplorerListView.cs</FileName>
+      <HashCode>AIAAIEAAAAAYEAIBAAAAAIAAAAwAIAAAAAABAAAAAAU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Controls.ExplorerTreeSorter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ExplorerTreeSorter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileExplorer.Controls.ExplorerTreeView" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ExplorerTreeView.cs</FileName>
+      <HashCode>AAAAAACAAgAAAAABIAAgABAAAACAIIBEBAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Controls.SelectedFolderChangedEventArgs" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\SelectedFolderChangedEventArgs.cs</FileName>
+      <HashCode>AAAAAEAAAABAAACAAAgAgAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Explorer" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Explorer.cs</FileName>
+      <HashCode>EAKEAA/AYHEAgkEJAG2AAKUWQDgUgaMJQFiQAICACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Properties.Resources" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAAAAAAAACAAABECEEAQAAQgAAQgAAAAQgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Shell.ShellAPI" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\ShellAPI.cs</FileName>
+      <HashCode>io2KoqGSUiBQiBAQrrBAHUApggSKDFCeIDlCBbI4gAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Shell.ShellImageList" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\ShellImageList.cs</FileName>
+      <HashCode>ABAIBEAAgAAAAgAAAEAAQAACEABAAAAAQAQAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileExplorer.Shell.ShellItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\ShellItem.cs</FileName>
+      <HashCode>CAJ8YGwAKiBhQ45MqMBCSg1ADgIFoY0IQRBBCAkCXCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="FileExplorer.Shell.Interfaces.IAsyncOperation" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IAsyncOperation.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAABAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IContextMenu" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IContextMenu.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IContextMenu2" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IContextMenu2.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IContextMenu3" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IContextMenu3.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IEnumIDList" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IEnumIDList.cs</FileName>
+      <HashCode>AgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEBA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IMalloc" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IMalloc.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAACAAAAAAAgAAEAAEAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IQueryInfo" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IQueryInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IShellFolder" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IShellFolder.cs</FileName>
+      <HashCode>AAAgAAAgAAAAAQABAAAAQAAEQCAIAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileExplorer.Shell.Interfaces.IShellFolder2" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\Interfaces\IShellFolder2.cs</FileName>
+      <HashCode>ACAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAACAAgIgAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="FileExplorer.Controls.ListViewLoadedEventHandler" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ExplorerListView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FileExplorer.SelectedFolderChangedEventHandler" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Explorer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

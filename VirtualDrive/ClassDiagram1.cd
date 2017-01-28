@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="8.25" />
+  <Class Name="VirtualDrive.Controls.ChartPen" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ChartPen.cs</FileName>
+      <HashCode>AACAAAAAAAAACAAAAAgAAEAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.CommandEventArgs" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CommandEventArgs.cs</FileName>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAIAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.CommandLine" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CommandLine.cs</FileName>
+      <HashCode>QACAAAACACAAABAAAACCAEAGAIRAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.DiskPerformance" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\DiskPerformance.cs</FileName>
+      <HashCode>QAIAAAAAACEACBCABACAAgCCAAEAEAAAACAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.DiskProperties" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\DiskProperties.cs</FileName>
+      <HashCode>cAAAAAAAICAAAJAAAQCAAACCAgBAAAAAQAAABAABFAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.EntryProperties" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\EntryProperties.cs</FileName>
+      <HashCode>AAAACAEAACAAADAAAQCAAAACAIAAAAAAAAAAACBBDAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.PerformanceChart" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\PerformanceChart.cs</FileName>
+      <HashCode>IBSAECAACCEYKAABRQCEAAACAAgAAACABiAIIABIEQg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.PerformanceChartStyle" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\PerformanceChartStyle.cs</FileName>
+      <HashCode>AAEAAUAAAADAAgAAACAABAAgAAQAAACAQAiCgMAIggA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.SectorView" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\SectorView.cs</FileName>
+      <HashCode>QAAAAAAAACAAABAAAACAIAADAAAAARCAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.SelectedFolderChangedEventArgs" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\SelectedFolderChangedEventArgs.cs</FileName>
+      <HashCode>AAAAAEAAAABAAACAAAgAgAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.VirtualListView" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\VirtualListView.cs</FileName>
+      <HashCode>AIAAAEGAAAAYAAIBAAAgAIAAAAwAIAAAAAAAAAAAAAU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.VirtualListViewSorter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\VirtualListViewSorter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VirtualDrive.Controls.VirtualTreeView" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\VirtualTreeView.cs</FileName>
+      <HashCode>AAAAAACAAAAAACABAAAgIBAAAAAAIAhEAABQAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Controls.VirtualTreeViewSorter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\VirtualTreeViewSorter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.BootSector" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\BootSector.cs</FileName>
+      <HashCode>AkQAAAEAEAEBBBACAAAEAAIAAAEAAAWAAACEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.DirectoryEntry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\DirectoryEntry.cs</FileName>
+      <HashCode>CEOEAAwAAETsACBVgAgADgQShykHEYNAAVAAAQoAsCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.Disk" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\Disk.cs</FileName>
+      <HashCode>AAykAA1BBIAJIwIkYACmLAAyZ0kQKBbCMakgAyvAyAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.FAT" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\FAT.cs</FileName>
+      <HashCode>AAIAACAEIAAAlABAChQAAAAAAAAAAAgQIIgAACAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.FatFileSystemInfo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\FileSystemInfo.cs</FileName>
+      <HashCode>AEAAAAIAAAAABACAAAAQAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.Sector" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\Sector.cs</FileName>
+      <HashCode>AAQAAAgAAAAgEAwAABAEAAAAAAAAAAAAIQCQABEAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.FileSystem.FAT32.VirtualFile" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\VirtualFile.cs</FileName>
+      <HashCode>QAAAAAAAAAAAAACAEAAAAAAgAAAAIAAAAAAAAAEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEQAAAAAAAAAAAAABECEEAQAAAgAAQgAAAAQgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Shell.ShellDataObject" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\ShellDataObject.cs</FileName>
+      <HashCode>AAAAAAAAEAAgAAAAAAAAAAAAAAgAABAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualDrive.Shell.VirtualItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Shell\VirtualItem.cs</FileName>
+      <HashCode>QAAQAgAAAABAgAZEgIACIAgABwABAocIgQBACAACUQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VirtualDrive.VirtualExplorer" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>VirtualExplorer.cs</FileName>
+      <HashCode>aROpG//iVHlAgk2vAK+nosVeRzkUIYQLQDr8Eai6WgU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VirtualDrive.Interfaces.IControl" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interfaces\IControl.cs</FileName>
+      <HashCode>AAAgAAAAAIAAAAIgAAAAAAAAAgEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VirtualDrive.Interfaces.IData" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interfaces\IData.cs</FileName>
+      <HashCode>AAAAAAAAAAAAIAAAQAAABAAgIAAAAAAAAAAAAAGAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VirtualDrive.Interfaces.ISystem" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interfaces\ISystem.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAEAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VirtualDrive.Controls.CMDTYPE" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CommandEventArgs.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VirtualDrive.FileSystem.FAT32.ENTRYTYPE" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\DirectoryEntry.cs</FileName>
+      <HashCode>AAAAAAACDAAAAAAAAAAAASAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VirtualDrive.FileSystem.FAT32.ATTRIBUTE" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\DirectoryEntry.cs</FileName>
+      <HashCode>gAAAgAAAAIAAAAAAAQAAAAAAAAACAAAAEAAAAAAAQBA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VirtualDrive.FileSystem.FAT32.OPENMODE" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileSystem\FAT32\VirtualFile.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAAAAAQAAAAABQAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="VirtualDrive.Controls.NavCommandEnteredEventHandler" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CommandLine.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="VirtualDrive.Controls.ListViewLoadedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\VirtualListView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="VirtualDrive.SelectedFolderChangedEventHandler" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>VirtualExplorer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>
