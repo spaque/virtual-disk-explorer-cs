@@ -1,0 +1,115 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7231C45A-5167-4AF3-805D-10AE21099286}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileExplorer</RootNamespace>
+    <AssemblyName>FileExplorer</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ExplorerListSorter.cs" />
+    <Compile Include="Controls\ExplorerListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ExplorerTreeSorter.cs" />
+    <Compile Include="Controls\ExplorerTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SelectedFolderChangedEventArgs.cs" />
+    <Compile Include="Explorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Explorer.Designer.cs">
+      <DependentUpon>Explorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\Interfaces\IAsyncOperation.cs" />
+    <Compile Include="Shell\Interfaces\IContextMenu.cs" />
+    <Compile Include="Shell\Interfaces\IContextMenu2.cs" />
+    <Compile Include="Shell\Interfaces\IContextMenu3.cs" />
+    <Compile Include="Shell\Interfaces\IEnumIDList.cs" />
+    <Compile Include="Shell\Interfaces\IMalloc.cs" />
+    <Compile Include="Shell\Interfaces\IQueryInfo.cs" />
+    <Compile Include="Shell\Interfaces\IShellFolder.cs" />
+    <Compile Include="Shell\Interfaces\IShellFolder2.cs" />
+    <Compile Include="Shell\ShellAPI.cs" />
+    <Compile Include="Shell\ShellAPI.Dll.cs" />
+    <Compile Include="Shell\ShellAPI.Enum.cs" />
+    <Compile Include="Shell\ShellAPI.Guid.cs" />
+    <Compile Include="Shell\ShellAPI.Struct.cs" />
+    <Compile Include="Shell\ShellImageList.cs" />
+    <Compile Include="Shell\ShellItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ExplorerListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExplorerListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Explorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\bt-left-128x128.png" />
+    <Content Include="Images\bt-right-128x128.png" />
+    <Content Include="Images\bt-up-128x128.png" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Images\copy-256x256.png" />
+    <None Include="Images\cut-256x256.png" />
+    <None Include="Images\delete-256x256.png" />
+    <Content Include="Images\Folder-128x128.png" />
+    <None Include="Images\Search_h.png" />
+    <None Include="Images\paste-256x256.png" />
+    <None Include="Images\view-128x128.png" />
+    <None Include="Images\refresh-128x128.png" />
+    <None Include="Images\stop-128x128.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
